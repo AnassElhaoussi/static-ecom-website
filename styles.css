@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FDF0D1;
+    font-family: "Poppins" , sans-serif;
+}
+
+.navigation {
+    display: flex;
+    padding: 2rem;
+}
+
+.nav-img {
+    padding-right: 40%;
+}
+
+.navigation a {
+    margin-left: 11rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+
+}
+
+.navigation a:hover {
+    color: blueviolet;
+   
+}
+
+.collection {
+    display: flex;
+    margin-top: 6rem;
+}
+
+.main-img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 40%;
+    border-radius: 3rem;
+}
+
+.thumbnails {
+    margin-left: 42%;
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.thumbnails img{
+    max-width: 17%;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 1.2rem;
+    transition: 0.7s ease;
+    
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+.text {
+    margin-right: 6rem;
+}
+
+.cl-title {
+    text-align: center;
+    margin-right: 50%;
+    letter-spacing: 2px;
+    color: #FF6B00;
+    margin-bottom: 2rem;
+
+}
+
+.cl-subtitle {
+    font-size: 3rem;
+    width: 60%;
+    margin-bottom: 0.8rem;
+}
+
+.cl-p {
+    width: 50%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.pricing {
+    display: flex;
+    
+}
+
+.price {
+    margin-right: 2.2rem;
+    font-size: 2rem;
+}
+
+.prc {
+    font-size: 1.4rem;
+    margin-top: 0.4rem;
+    color: #FF6B00;
+    background-color: #e2e2e2;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.previous-price {
+    font-size: 1.1rem;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #FF6B00;
+    padding: 1.4rem 3.6rem;
+    border-radius: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.7s ease;
+}
+
+.buy-btn:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 60, 0);
+
+}
+
+.footer h2 {
+    margin-top: 10%;
+    padding: 0.6rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    
+}
